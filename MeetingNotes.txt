@@ -7,9 +7,17 @@ First Meeting - 02:25 PM, October 28.2022
 -> Finalized the framework and its setup.
 -> deviced the future plan for the assignment
 --------------------------------------
+
 Second Meeting - 02: 35 PM, October 29.2022
 -> Finalized the Cucumber+WEbDriverio
 -> Got some sample testcases setup
 -> Runned some test cases as sample
 -> Run the test case for login on Metabase
 --------------------------------------
+
+Third Meeting - 011: 30 AM, November 2.2022
+-> Worked on codeceptjs
+-> after a lot of trys, got succesfull in running a testcase.
+-> Got a few problems, consulted sir regarding this.
+-> Solved all the issues.
+------------------------------------
