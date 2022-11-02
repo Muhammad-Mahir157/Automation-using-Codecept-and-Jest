@@ -5,6 +5,7 @@ Feature: Login
     Given I navigate on login page
     Given Login with username and password
       | username | password |
-      | m.mhad.chdry@gmail.com | m.mahad12 |
+      | random@gmail.com | Q5CpF_27OsGvhR |
+
     And I click login button
     Then I should see login 
