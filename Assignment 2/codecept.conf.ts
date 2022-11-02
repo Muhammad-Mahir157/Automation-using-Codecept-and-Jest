@@ -14,9 +14,20 @@ export const config: CodeceptJS.MainConfig = {
       url: 'http://localhost',
       show: true,
       windowSize: '1200x900',
-      waitForNavigation: "networkidle0"
     }
   },
   include: {},
+  gherkin: {
+    features: './features/*.feature',   // feature files location
+    steps: ['./step_definitions/steps.js']  // step definitions location
+  },
+  plugins: {
+    screenshotOnFail: { // if true take screenshot of failed scenarios
+      enabled: true
+    },
+    retryFailedStep: { // if true rerun failed tests
+      enabled: true
+    }
+  },
   name: 'Assignment 2'
 }
