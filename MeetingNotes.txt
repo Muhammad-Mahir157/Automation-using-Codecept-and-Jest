@@ -15,9 +15,16 @@ Second Meeting - 02: 35 PM, October 29.2022
 -> Run the test case for login on Metabase
 --------------------------------------
 
-Third Meeting - 011: 30 AM, November 2.2022
+Third Meeting - 11: 30 AM, November 2.2022
 -> Worked on codeceptjs
 -> after a lot of trys, got succesfull in running a testcase.
 -> Got a few problems, consulted sir regarding this.
 -> Solved all the issues.
 ------------------------------------
+
+Fourth Meeting - 9: 00 PM, November 2.2022
+-> Done with sample test cases using Gherkin
+-> created a commit
+-> resolve commit issues
+-> made sure that every member has the repository cloned on his system
+-> practiced commiting code and creating branches.
