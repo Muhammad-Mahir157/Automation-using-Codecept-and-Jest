@@ -28,3 +28,10 @@ Fourth Meeting - 9: 00 PM, November 2.2022
 -> resolve commit issues
 -> made sure that every member has the repository cloned on his system
 -> practiced commiting code and creating branches.
+
+
+Fifth Meeting - 3:00 PM, November 3,2022
+-> Discussed Streamlining of the test cases automation
+-> Resolved some issues related to xpath, Background feature and running multiple test cases one by one
+-> Discussion with Sir Jawad
+-> Planning of API testing automation
