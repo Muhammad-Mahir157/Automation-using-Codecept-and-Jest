@@ -1,0 +1,18 @@
+{
+  "name": "jestdemo",
+  "version": "1.0.0",
+  "description": "api automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "author": "hammad",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "supertest": "^6.3.1"
+  },
+  "dependencies": {
+    "curl": "^0.1.4"
+  }
+}
