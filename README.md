@@ -1,6 +1,44 @@
 # ST-Assignment-2
 
-Api Automation In Metabase:
+# UI Automation In Metabase:
+Entity Loaders:
+Metabase frontend uses Entity Loaders in their framework. Entity loaders are used to abstract away calling the API, handling loading and error state, cache previously loaded objects, invalidating the cache (in some cases) and let you easily perform updates, or create new items. Metabase used entity loaders to create their new features and also helful in loading certain data on the frontend. For example below code is going to load information about a specific database for a new page.
+
+import React from "react";
+import Databases from "metabase/entities/databases";
+
+@Databases.load({ id: 4 })
+class MyNewPage extends React.Component {
+  render() {
+    const { database } = this.props;
+    return (
+      <div>
+        <h1>{database.name}</h1>
+      </div>
+    );
+  }
+}
+
+Forms Framework:
+Metabase used custom React and reduc-form library in their frontend. This is a helpful library used for creating and validating different in UI. For example in below code name and password field is validated using validate API.
+
+import Form, { FormField, FormFooter } from "metabase/containers/Form";
+
+<Form onSubmit={values => alert(JSON.stringify(values))}>
+  <FormField
+    name="email"
+    placeholder="bob@metabase.com"
+    validate={validate.required()}
+  />
+  <FormField
+    name="password"
+    type="password"
+    validate={validate.required().passwordComplexity()}
+  />
+  <FormFooter />
+</Form>;
+
+# Api Automation In Metabase:
 The API is tightly coupled with the front end and is subject to change between releases, it can change version to version. So that's the reason you have to change code of API of Metabase after every update. Metabase API accepts the HTTP verbs and parameters. Following is the framework that how metabase API interaction takes place:
 
 Authentication:
