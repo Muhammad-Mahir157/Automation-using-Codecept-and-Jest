@@ -12,8 +12,6 @@ class MyNewPage extends React.Component {
   render() {
     const { database } = this.props;
     return (
-      <div><h1>{database.name}</h1>
-      </div>
     );
   }
 }
