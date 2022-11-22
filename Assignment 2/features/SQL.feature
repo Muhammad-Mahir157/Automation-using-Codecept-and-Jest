@@ -10,6 +10,7 @@ Feature: SQL Query Select
       Then I should see SQL Query page
       When I write
       Then I see text
+      Then I see Variables
       Then I click on Variable Type button
       #Then I should Change variable types 
 
