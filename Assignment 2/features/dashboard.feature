@@ -12,4 +12,5 @@ Feature: Dashboard
     Then I should be able to edit the dashboard
     Then I should be able to add text cards
     Then I should be able to add text to the text cards
+    Then I should see the saved Dashboard
   
