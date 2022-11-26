@@ -4,16 +4,17 @@
   "description": "api automation",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/jest"
+    "test": "jest"
   },
   "author": "hammad",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.2.2",
+    "jest": "^29.3.1",
     "supertest": "^6.3.1"
   },
   "dependencies": {
     "curl": "^0.1.4",
     "dotenv": "^16.0.3"
-  }
+  },
+  "keywords": []
 }
