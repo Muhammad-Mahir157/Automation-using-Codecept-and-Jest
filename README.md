@@ -1,5 +1,3 @@
-# ST-Assignment-2
-
 # UI Automation In Metabase:
 Entity Loaders:
 Metabase frontend uses Entity Loaders in their framework. Entity loaders are used to abstract away calling the API, handling loading and error state, cache previously loaded objects, invalidating the cache (in some cases) and let you easily perform updates, or create new items. Metabase used entity loaders to create their new features and also helful in loading certain data on the frontend. For example below code is going to load information about a specific database for a new page.
